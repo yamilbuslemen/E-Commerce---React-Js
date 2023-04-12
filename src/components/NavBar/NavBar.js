@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <nav>
             <h3>Shopping Virtual Deportivo</h3>
-            <div>
+            <div class="botones">
                 <button>Guantes</button>
                 <button>Vendas</button>
                 <button>Bucales</button>
