@@ -1,3 +1,4 @@
+
 const products = [
     {id: '1', name: 'Guantes', price: 12000, category: 'Guantes', stock: 25, description: 'Guantes de boxeo 12/14oz', img: './public/Guantes.webp'},
     {id: '2', name: 'Vendas', price: 3000, category: 'Vendas', stock: 25, description: 'Vendas protectoras 3mts', img: './public/vendas.webp'},
@@ -22,3 +23,4 @@ export const getProductById = (productId) => {
         }, 500)
     })
 }
+
