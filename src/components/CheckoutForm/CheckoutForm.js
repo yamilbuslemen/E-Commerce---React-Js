@@ -11,7 +11,7 @@ const CheckoutForm = ({ onConfirm }) => {
         event.preventDefault()
 
         const userData = {
-            name, phone, mail
+            name, phone, email
         }
         onConfirm(userData)
     }
@@ -49,4 +49,4 @@ const CheckoutForm = ({ onConfirm }) => {
     )
 }
 
-export default CheckoutForm
+export  { CheckoutForm }
