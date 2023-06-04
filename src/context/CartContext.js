@@ -31,11 +31,11 @@ export const CartProvider = ({ children }) => {
     }
 
     const totalQuantity = () => {
-        return cart.reduce((acc, prod) => (acc += prod.quantity), 0)
+        return cart.reduce((acc, prod) => acc += prod.quantity, 0)
     }
 
     const total = () => {
-        return cart.reduce((acc, prod) => (acc += prod.price * prod.quantity, 0))
+        return cart.reduce((acc, prod) => acc += prod.quantity * prod.price, 0)
     }
  
 
